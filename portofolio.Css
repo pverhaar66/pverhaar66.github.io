@@ -1,0 +1,35 @@
+body { 
+	color: #white;
+	background-image: url("http://img93.xooimage.com/files/f/7/2/wallpaper_final_f...920x1080-3d47804.jpg");
+}
+
+p {
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 11px;
+    background-color: #2E2E2E;
+    border-color: #F7D358
+}
+
+
+h1 {
+	color: #B760E9;
+
+}
+h2 {
+	color: #B760E9;
+}
+p { color: #81DAF5; 
+
+}
+
+li {color: #81DAF5;
+
+}
+
+ul { border-style: solid;
+     border-width: 1px;
+     background-color: #2E2E2E;
+     border-color: #F7D358;
+
+ }
