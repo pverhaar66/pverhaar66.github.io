@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html { font-family: tahoma;  
+
+}
+body {
+		background-image:url("images/background.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+
+#header {  
+            height: 40%;
+            width: 60%;
+            position: relative;
+            left: 20%;  
+            padding: 20px auto 20px auto;
+}
+
+p {  
+	padding: 5px 20px;
+	display: inline;	
+}
+
+li { 
+    text-align: left;
+    margin-left: 50px; 
+}
+
+h1 {	
+	padding: 30px 0px 10px 0px;
+    width: 100%;
+}
+
+a {
+    color: white;   
+}
+
+button {
+        height: 60px;
+        width: 120px;
+        background-color: #58D3F7;
+        border-color: black;
+        font-size: 25px;
+        text-shadow: 1px 1px 1px;
+}
+
+.ads {  
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        border-style: solid;
+        border-color: white;
+
+}
+
+.ads2 {  
+        
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        border-style: solid;
+        border-color: white;
+}
+
+#box {	
+	   display: block;
+	   height: 1900px;
+	   width: 900px;
+       background-color: #aba8a8;
+	   margin: 0% auto;
+	   text-align: center;
+       display: flex;
+       flex-wrap: wrap;
+       flex: 2;
+}
+
+#box2 {
+       display: block;
+       height: 100%;
+       width: 1000px;
+       background-color:none;
+       text-align: center;
+       margin: 0 13%;
+       display: flex;
+       flex-direction: column;
+}
+
+.lilbox { 
+        background-color: black;
+        color: white;
+        border-style: solid;
+        border-width: 2px;
+        height: 400px;
+        width: 700px;
+        margin: 0px auto;
+        padding: 5px 5px;   
+
+}
+
+
+.boxk {  
+       display: block;
+       height: 100%;
+       width: 1000px;
+       background-color:none;
+       text-align: center;
+       margin: 0 auto 0 auto; 
+       display: flex;
+       flex-wrap: wrap;
+}
+
+.boxs { 
+        background-color: white;
+        position: relative;
+        height: 100%;
+        width: 960px;
+        margin: 0 auto 0 auto;  
+}
+
+.h2l { 
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px;
+    background-color: #58D3F7;
+    margin: 0px 0px 5px 0px;
+}
+
+.overwatch {  
+        height: 40%;
+        width: 80%;
+        border-style: solid;
+        box-shadow: 10px;
+        border-width: 1px;
+}
+/* ======================= ,my hobby Page ========================*/
+
+#header_mhb {  
+            height: 40%;
+            width: 50%;
+            position: relative;
+            left: 14%;  
+            padding: 20px auto 20px auto;
+}
+
+.mhb_wall {
+        background-image: url("images/anime-wallpapers-9.jpg");
+}
+
+.jpg {
+    border: solid black 2px;
+}
+
+.h2k {
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px;
+    background-color: orange;
+    margin: 30px 0px 0px 0px;
+}
+.h2f {
+
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px;
+    background-color: #58D3F7;
+    margin: 50px 0px -30px 0px;
+
+}
+/* ======================= Final Fantasy XV Page ========================*/
+
+.ffxv_wall {
+        background-image: url("images/hXNS2k.png");
+}
+
+.FFXV { 
+       height: 45%;
+       width: 80%;
+       border-style: solid;
+       box-shadow: 10px;
+       border-width: 1px;
+}
+
+.FFXV-Mainchars {
+        height: 400px;
+        width: 850px;
+}
+
+.names {
+        font-size: 23px;
+}
+
+.transport {
+        height: 350px;
+        width: 470px;   
+}
+
+.battle { 
+    height: 350px;
+    width: 600px;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+
+/* ======================= Destiny Rise of Iron Page ========================*/
+
+.rise_of_iron_wall {
+        background-image: url("images/052174.jpg");
+}
+
+.iron {
+    height: 400px;
+    width: 800px;
+    display: block; 
+    margin: 0px auto 0px auto;
+}
+.irontext {
+        font-size: 19px;
+}
+
+.ironul{
+        width: 800px;
+        margin: 0px auto 0px auto;
+        padding-bottom: 50px;
+        text-align: justify;
+}   
+
+/* ======================= Sniper Elite Page ========================*/
+
+.se4_wall {
+        background-image: url("images/SE4_8.jpg");
+}
+
+.se4_image {
+        height: 400px;
+        width: 720px;
+        margin: 0 auto 0 auto;
+        display: block; 
+}
+
+.se4text {
+        font-size: 19px;
+}
+
+.artwork { 
+        height: 700px;
+        width: 350px;
+
+}
+
+/* ======================= Final Fantasy XIV Souls Surender patch 3.4 Page ========================*/
+
+.ssp_wall {
+        background-image: url("images/ffxiv_wall.jpg");
+}
+
+
+.SSP { 
+       border-style: solid;
+       box-shadow: 10px;
+       border-width: 1px;
+}
+
+.souls {
+        position: absolute;
+        color: white;
+        top: 30px;
+}
+
+.MSQ {  
+        height: 300px;
+        width: 960px;
+}
+
+.pos {
+        position: absolute;
+        color: gold;
+        top: 100px;
+}
+
+.pos1 {
+        position: absolute;
+        color: white;
+        top: 60px;
+        left: 6px;
+        font-size: 55px;
+}
+
+.pos1i {
+       position: absolute;
+        color: white;
+        top: 120px;
+        left: 10px;
+        font-size: 30px;    
+}
+
+
+.pos1j {
+       position: absolute;
+        color: white;
+        width: 50%;
+        top: 80px;
+        left: 490px;
+        font-size: 25px;    
+}
+
+.pos1k {
+       position: absolute;
+        color: white;
+        width: 50%;
+        top: 80px;
+        left: 10px;
+        font-size: 28px;    
+}
+
+
+.left { 
+        float: left;
+        width: 455px;
+}
+
+.left2 { 
+        float: left;
+        padding: 5px;
+        width: 455px;
+}
+
+/* ======================= dropdown_menu ========================*/
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    left: 10px;
+    top: 10px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+@media screen and (max-width: 1600px){
+
+        #box{
+          
+          height: 100%;
+        }    
+
+        .ads{
+            position: static;
+            margin-left: 106px;
+        }
+        .ads2{
+            position: static;
+            margin-right:  106px;
+        }
+
+}

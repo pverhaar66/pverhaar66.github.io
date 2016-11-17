@@ -1,0 +1,103 @@
+html { 
+		font-family: arial;
+}
+body {
+		background-image: url('images/blue.jpg');
+}
+
+p {  
+	text-align: left;
+	padding: 0px 20px;
+}
+
+h1{	
+	position: absolute;
+	top: 0%;
+	left: 580px;
+	font-size: 37px;
+}
+
+h2 { 
+	text-align: left; 
+	padding: 0px 30px;
+}
+
+li { 
+	display: inline;
+	font-size: 13px;
+	margin-left: 35px;
+
+
+}
+
+button {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 60px;
+	width: 100px;
+	background-image: url('images/blue.jpg');
+	color: white;
+}
+
+#box { background-color: white;
+		height: 1070px;
+		width: 800px;
+		text-align: center;
+		margin: 0 auto 0 auto;
+
+
+
+}
+
+#menu {
+	   height: 25px;
+	   width: 700px;
+	   display: inline;
+	   position: absolute;
+	   top: 212px;
+	   left: 450px;
+
+}
+
+
+#blue { position:relative;
+
+}
+
+.reg { 	position: absolute;
+	top: 50px;
+	left: 560px;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.top-left {	
+			display: inline;
+			float: left;
+			padding: 0px 8px;
+}
+
+.left { 
+		float: left;
+		display: inline;
+		padding: 4px 4px;
+}
+
+.right {
+		float: right;
+		display: inline;
+		padding: 4px 4px;
+}
+
+.lefti 	{
+		float: left;
+		display: inline;
+		padding: 4px 4px;
+}
+
+.righti { 
+		float: right;
+		display: inline;
+		padding: 4px 4px; 
+}
