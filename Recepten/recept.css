@@ -1,0 +1,98 @@
+body {
+	background-image: url("http://wallpapercave.com/wp/kF7ovcH.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
+h1 {
+	position:relative;
+	top:150px;
+	left: 15%;
+	color: black;
+	margin-left: 4%;
+
+}
+h2 {
+	color: black;
+	text-align: center;
+	padding: 35px 15px 2px 15px;
+
+}
+p {
+	color: black;
+	border-width: 1px;
+	border-color: black;
+    padding: 10px 120px;
+
+
+}
+
+li {color: black;
+
+}
+
+
+ul {
+     border-width: 1px;
+     padding: 10px 145px;
+     margin-top: 15%;
+     border-color: #FACC2E;
+
+ }
+
+ button {
+ 	height: 60px;
+ 	width: 100px;
+ 	background-image: url("https://thecliparts.com/wp-content/uploads/2016/03/free-scroll-clipart-2.gif");
+
+ }
+
+#rectangle { 
+ 			background-image: url("https://thecliparts.com/wp-content/uploads/2016/03/free-scroll-clipart-2.gif");
+ 			background-position: center;
+ 			background-size: 1020px 1200px;
+ 			opacity: 1.0;
+ 			width: 890px;
+ 			height: 1200px;
+            padding-right: 22px;
+            padding-left: 22px;
+ 			margin-left: 27%;
+ 			text-align: left;
+	   			font-family: Arial;
+
+}
+
+
+
+
+#ingredienten {
+				position:relative;
+				top:113px;
+				text-align: center;
+
+}
+
+
+#info  {	
+			background-image: url("https://thecliparts.com/wp-content/uploads/2016/03/free-scroll-clipart-2.gif");	
+			background-position: center;
+			background-size: 447px 370px;
+			opacity: 0.9;
+			position: absolute;
+			top: 130px;
+			left: 50px;
+			width: 380px;
+			height: 330px;
+			text-align: left;
+			font-family: arial;
+
+
+}
+
+#infotxt { 
+			position: relative;
+			left: -15%;
+}
