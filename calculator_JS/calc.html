@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Claculator</title>
+	<link rel="stylesheet" type="text/css" href="calc.css" />
+</head>
+<body>
+	<main>
+		<section id="cbutton"><button onclick="refresh()"> C </button> </section>
+		<section id="screen"></section>
+		<section id="buttons">
+		<button onclick="goal('7')">7</button>
+		<button onclick="goal('8')">8</button>
+		<button onclick="goal('9')">9</button>
+		<button class="operator" onclick="addopp('+')" >+</button>
+
+		<button onclick="goal('4')">4</button>
+		<button onclick="goal('5')">5</button>
+		<button onclick="goal('6')">6</button>
+		<button class="operator" onclick="addopp('-')">-</button>
+
+		<button onclick="goal('1')">1</button>
+		<button onclick="goal('2')">2</button>
+		<button onclick="goal('3')">3</button>
+		<button class="operator" onclick="addopp('/')">/</button>
+
+		<button onclick="dot('.')">.</button>
+		<button onclick="goal('0')">0</button>
+		<button class="operator" onclick="calculate()">=</button>
+		<button class="operator" onclick="addopp('*')">*</button>
+		</section>
+
+
+		
+
+
+
+
+
+		<script src="calc.js"></script>
+	</main>
+
+
+
+
+</body>
+</html>
