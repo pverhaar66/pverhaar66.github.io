@@ -1,0 +1,47 @@
+body {
+	background-image: url("images/wallpaper-abyss-explore-the-collection-bleach-anime-bleach-80409-gtpSUk-clipart.jpg");
+	font-family: arial;
+}
+
+main {
+	position: relative;
+	width: 600px;
+	height: 450px;
+	background-image: url("images/black-metal2.jpeg");
+	margin: 100px auto;
+	border: solid black 2px;
+}
+
+#screen {
+	width: 400px;
+	height: 70px;
+	margin-left: 170px;
+	margin-top: 20px;
+	border: solid black 3px;
+	background-color: lightgreen;
+	color: black;
+	font-size: 60px;
+}
+
+#cbutton {
+	position: absolute;
+	height: 70px;
+	width: 100px;
+	text-align: center;
+	font-size: 40px;	
+	margin-left: 30px;
+	margin-top: 20px;
+}	
+
+#buttons {
+	margin:30px 90px;
+}
+
+button {
+	margin-bottom: 5px;
+	height: 70px;
+	width: 100px;
+	border: solid black 2px;
+	font-size: 20px;
+	
+}
