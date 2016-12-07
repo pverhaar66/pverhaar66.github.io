@@ -149,26 +149,29 @@ button {
         background-image: url("images/anime-wallpapers-9.jpg");
 }
 
-.jpg {
-    border: solid black 2px;
-}
-
-.h2k {
-    color: white;
-    font-size: 50px;
-    text-shadow: 1px 1px 1px;
-    background-color: orange;
-    margin: 30px 0px 0px 0px;
-}
-.h2f {
-
-    color: white;
-    font-size: 50px;
-    text-shadow: 1px 1px 1px;
-    background-color: #58D3F7;
-    margin: 50px 0px -30px 0px;
+#main {
+    display: flex;
 
 }
+
+.section2 {
+    width: 800px;
+    height: 60px;
+    font-size: 25px;
+    text-align: center;
+    background-color: grey;
+    margin-bottom: 10px;
+    margin-left: 270px;
+}
+
+.section {
+    width: 800px;
+    height: 400px;
+    background-color: grey;
+    margin-bottom: 10px;
+    margin-left: 270px;
+}
+
 /* ======================= Final Fantasy XV Page ========================*/
 
 .ffxv_wall {
