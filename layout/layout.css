@@ -157,20 +157,22 @@ button {
 
 }
 
-.section2 {
+.sectionnaw {
     width: 900px;
     height: 90;
     font-size: 25px;
     text-align: center;
-    background-color: grey;
+    background-color: none;
     margin-bottom: 10px;
     margin-left: 270px;
+    margin-bottom: 100px;
 }
 
-.section {
+.section1 {
     width: 800px;
-    height: 400px;  
-    background-color: grey;
+    height: 100%;  
+    padding-bottom: 30px;
+    background-color: none;
     margin-bottom: 10px;
     margin-left: 270px;
 }
@@ -182,6 +184,61 @@ button {
 }
 
 .jpg {
+    margin-top: 2em;
+    margin-left: 3em;
+    padding-bottom: 1em;
+    position: relative;
+
+}
+
+.jpg:hover {
+    height: 490px;
+    width: 350px;
+    transition: width 2s, height 4s;
+
+    
+}
+
+.card1,.card3 {
+    position: absolute;
+    margin-left:120px;
+}
+.card2,.card4 {
+    position: absolute;
+    margin-left:500px;
+}
+
+#aa {
+    color: red;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px){
+
+.sectionnaw {
+    width: 500px;
+    height: 90;
+    font-size: 25px;
+    text-align: center;
+    background-color: none;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.section1 {
+    width: 500px;
+    height: 100%;  
+    padding-bottom: 30px;
+    background-color: none;
+    margin-bottom: 10px;
+    margin-left: 5px;
+
+}
+
+.card2,.card4 {
+    position: absolute;
+    margin-left:100px;
+}
     
 }
 
