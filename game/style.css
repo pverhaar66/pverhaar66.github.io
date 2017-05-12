@@ -2,6 +2,9 @@ body {
 	background-image: url("img/black.jpg");
 	font-family: sans-serif;
 }
+a {
+	color: purple;
+}
 
 #level_title {
 	padding: 10px;

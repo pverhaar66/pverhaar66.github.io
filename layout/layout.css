@@ -149,11 +149,73 @@ button {
 
 .mhb_wall {
         background-image: url("images/anime-wallpapers-9.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+}
+#flatline-anime {
+    position: relative;
+    display: flex;
+    width: 1500px;
+    height: 500px;
+}
+.title-anime{
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.animetext1{
+    display: inline;
+    margin-left: 80px;
+    font-size: 25px;
+}
+
+.animetext2{
+    display: inline;
+    margin-left: 180px;
+    font-size: 25px;
+}
+
+.animetext3{
+    display: inline;
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+.animetext4{
+    display: inline;
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+.animetext5{
+    display: inline;
+    margin-left: 160px;
+    font-size: 25px;
+}
+.animetext1, .animetext2, .animetext3 , .animetext4, .animetext5{
+    color: red;
+    padding: 3px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.section66 {
+    width: 1500px;
+    height: 100%;  
+    padding-bottom: 30px;
+    background-color: none;
+    margin-bottom: 10px;
+    margin-left: 270px;
 }
 
 #main {
+
     display: flex;
     flex-wrap: wrap;
+    width: 1400px;
+    margin-top: 200px;
 
 }
 
@@ -176,6 +238,7 @@ button {
     margin-bottom: 10px;
     margin-left: 270px;
 }
+
 
 
 .sectionp {
